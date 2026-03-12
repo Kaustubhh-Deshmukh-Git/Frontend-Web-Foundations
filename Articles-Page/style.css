@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-container {
+    background-color: #225db0;
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+.articles-heading {
+    padding-top: 40px;
+    margin-left: 20px;
+    font-weight: 300; /* Made slightly lighter to match mockup */
+    font-size: 36px;
+}
+
+.articles-para {
+    margin-left: 20px;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.articles-card {
+    background-color: #ffffff;
+    color: #1f2933;
+    border-radius: 12px;
+    padding: 30px 10px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.articles-card-image {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+.card-title {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.technology-caraousel {
+    margin: 20px;
+    border-radius: 12px;
+    overflow: hidden; /* Ensures the images respect the border radius */
+}
+
+.technology-heading {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.list-padding {
+    padding-left: 40px;
+    font-size: 16px;
+    line-height: 2; /* Gives breathing room to the list items */
+}
+
+.back {
+    background-color: transparent; /* Makes the button background blend in */
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    padding: 8px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
