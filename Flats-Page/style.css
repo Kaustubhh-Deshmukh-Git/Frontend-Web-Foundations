@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+body {
+    margin: 0;
+    font-family: "Bree Serif", serif;
+}
+
+.home-bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/static-website/flats-list-bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.home-bottom-card {
+    background-color: #ffffff;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    padding: 30px;
+}
+
+.home-card-heading {
+    color: #f19116;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.home-card-para {
+    color: #7b8794;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.book-flat {
+    color: #ffffff;
+    background-color: #f19116;
+    padding: 10px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.bg-container {
+    background-color: #222222;
+    min-height: 100vh; /* Fixed from height to min-height */
+}
+
+.heading {
+    color: #f19116;
+    font-size: 28px;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+.flat-list-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    overflow: hidden; /* Ensures the image respects the border radius */
+    cursor: pointer;
+}
+
+.list-img {
+    width: 120px;
+    object-fit: cover; /* Ensures the image fills its space without distortion */
+}
+
+.flat-list-card-heading {
+    font-size: 20px;
+    color: #0f0e46;
+    margin-bottom: 5px;
+}
+
+.flat-list-card-para {
+    color: #6c6b70;
+    font-size: 14px;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.description-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.location {
+    height: 20px;
+    width: 20px;
+}
+
+.description-para {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
