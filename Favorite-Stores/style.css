@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.main-container {
+    font-family: "Bree Serif";
+}
+
+/* Header Section Styling */
+.header-section {
+    background-color: #894bca;
+    padding: 20px;
+    padding-bottom: 0px;
+    /* Image sits on the bottom edge */
+}
+
+.header-text-container {
+    width: 50%;
+}
+
+.main-heading {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.header-image {
+    width: 150px;
+    height: auto;
+}
+
+/* Bottom Section Styling */
+.bottom-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* Negative margin pulls the white section up slightly over the purple if desired, 
+       but standard stacking works best for this specific assignment level */
+}
+
+.sub-heading {
+    color: #f780c3;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+/* Store List Items */
+.store-item {
+    margin-bottom: 20px;
+}
+
+.store-logo {
+    height: 60px;
+    width: 60px;
+    margin-right: 15px;
+    border-radius: 8px;
+    /* Optional: makes logos look smoother */
+}
+
+.store-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.store-name {
+    color: #323f4b;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.store-description {
+    color: #7b8794;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    /* Using a sans-serif for body text is standard practice */
+    margin-bottom: 0px;
+}
