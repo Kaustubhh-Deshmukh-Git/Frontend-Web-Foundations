@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #f5f7fa;
+}
+
+.main-container {
+    width: 100%;
+}
+
+/* Top section with the code background */
+.top-section {
+    background-image: url("https://assets.ccbp.in/frontend/static-website/foundations-bg.png");
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+    width: 100%;
+}
+
+/* The white content area with the overlap fix */
+.bottom-section {
+    background-color: #ffffff;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    padding: 30px 20px;
+    margin-top: -30px; /* Pulls the section up to overlap the image */
+    position: relative; /* Forces it to sit on top of the image */
+    z-index: 1;
+    min-height: 65vh;
+}
+
+.main-heading {
+    color: #323f4b;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.description {
+    color: #7b8794;
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+/* Individual Cards */
+.course-card {
+    background-color: #ffffff;
+    border: 1px solid #cbd2d9;
+    border-radius: 8px;
+    width: 140px;
+    height: 140px;
+    margin: 10px; /* Provides the spacing between cards in the flex wrap */
+    padding: 10px;
+}
+
+.course-image {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.course-title {
+    color: #323f4b;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
